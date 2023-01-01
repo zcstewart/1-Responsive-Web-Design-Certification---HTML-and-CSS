@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>User Stories</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title" >We want to hear from YOU</h1>
+    <p id="description" >Please share your stories with us</p>
+    <form id= "survey-form">
+      <fieldset>
+        <label for="full-name">Name: <input id="full-name" name="full-name" type="text" placeholder ="Enter your full name" required /></label>
+        <label for="email-address">Email: <input id="email" name="email" type="email" placeholder ="Enter your email address" required /></label>
+        <label for="phone-number">Phone Number: <input id="number" name="number" type="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder ="Enter your phone number" required /></label>
+        <label for="age">Age: </label>
+        <input id="age-13-17" type="radio" name="age-range" class="inline" />13-17
+        <input id="age-18-19" type="radio" name="age-range" class="inline" />18-19
+        <input id="age-20-29" type="radio" name="age-range" class="inline" />20-29
+        <input id="age-30-39" type="radio" name="age-range" class="inline" />30-39
+        <input id="age-40-49" type="radio" name="age-range" class="inline" />40-49</label>
+        <label for="50+"><input id="age-50-59" type="radio" name="age-range" class="inline" />50-59
+        <input id="age-60-69" type="radio" name="age-range" class="inline" />60-69
+        <input id="age-70-79" type="radio" name="age-range" class="inline" />70-79
+        <input id="age-80-89" type="radio" name="age-range" class="inline" />80-89
+        <input id="age-90-99" type="radio" name="age-range" class="inline" />90-99</label>
+        <label for="100+"><input id="age-100-and-up" type="radio" name="age-range" class="inline" />100+</label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" />I accept the <a href="https://www.bestbuy.com/">terms and conditions</a>
+        </label>
+
+      </fieldset>
+      <fieldset>
+        <label for="role">What best describes your role?
+          <select id="dropdown" name="role">
+            <option value="">(select one)</option>
+            <option value="1">Student</option>
+            <option value="2">Professional</option>
+            <option value="3">Unemployed/"Self-Employed"</option>
+            <option value="4">Military</option>
+            <option value="5">Athlete</option>
+            <option value="6">Retiree</option>
+            <option value="7">Other</option>
+          </select>
+        </label>
+        <label for="found-us">How did you hear about us?</label>
+          <label for="found-us-Facebook"><input id="found-us-Facebook" type="checkbox" class="inline" />Facebook</label>
+          <label for="found-us-LinkedIn"><input id="found-us-LinkedIn" type="checkbox" class="inline" />LinkedIn</label>
+          <label for="found-us-Reddit"><input id="found-us-Reddit" type="checkbox" class="inline" />Reddit</label>
+          <label for="found-us-YouTube"><input id="found-us-YouTube" type="checkbox" class="inline" />YouTube</label>
+          <label for="found-us-Instagram"><input id="found-us-Instagram" type="checkbox" class="inline" />Instagram</label>
+          <label for="found-us-Other"><input id="found-us-Other" type="checkbox" class="inline" checked />Other</label>
+      </fieldset>
+    </form>
+
+
+
+  </body>
